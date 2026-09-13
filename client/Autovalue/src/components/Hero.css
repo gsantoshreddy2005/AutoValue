@@ -67,3 +67,8 @@
   background: #1d4ed8;
   transform: translateY(-2px);
 }
+
+.hero-button {
+  display: inline-block;
+  text-decoration: none;
+}

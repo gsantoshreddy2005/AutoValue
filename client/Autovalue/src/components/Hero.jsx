@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom"
+
 import "./Hero.css";
 
 export default function Hero() {
@@ -12,7 +14,9 @@ export default function Hero() {
           Get an estimated resale value for your car using machine learning.
         </p>
 
-        <button className="hero-button">Predict My Car</button>
+        <Link to="/predict" className="hero-button">
+            Preict My car
+        </Link>
       </div>
     </main>
   );
