@@ -11,11 +11,11 @@ export default function Hero() {
         <h2>Know Your Car's Value</h2>
 
         <p className="hero-description">
-          Get an estimated resale value for your car using machine learning.
+          Get an estimated resale value for your car based on its details.
         </p>
 
         <Link to="/predict" className="hero-button">
-            Preict My car
+            Predict My Car
         </Link>
       </div>
     </main>

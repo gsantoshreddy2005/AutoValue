@@ -170,10 +170,10 @@ export default function PredictionForm() {
           value={formData.Doors}
           onChange={handleChange}
         >
-          <option value="">Doors</option>
-          <option value="04-May">04-May</option>
-          <option value="02-Mar">02-Mar</option>
-          <option value=">5">&gt;5</option>
+          <option value="">Select Doors</option>
+          <option value="04-May">4-5 Doors</option>
+          <option value="02-Mar">2-3 Doors</option>
+          <option value=">5">&gt;5 Doors</option>
         </select>
 
         <select

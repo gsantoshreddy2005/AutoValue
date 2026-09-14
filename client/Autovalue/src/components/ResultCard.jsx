@@ -1,4 +1,4 @@
-import "./ResultCard/css"
+import "./ResultCard.css"
 
 export default function ResultCard({prediction}) {
     return (
