@@ -1,5 +1,28 @@
+# Python virtual environments & cache
+.venv/
+venv/
+ENV/
+server/.venv/
 server/venv/
 __pycache__/
 *.pyc
+.pytest_cache/
+
+# Environment variables & secrets
 .env
+.env.local
+.env.*.local
+
+# Node & Frontend dependencies/builds
+node_modules/
+dist/
+dist-ssr/
+*.log
+
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
