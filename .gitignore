@@ -26,3 +26,7 @@ dist-ssr/
 .vscode/
 .idea/
 .DS_Store
+
+# ML artifacts
+*.pkl
+*.joblib
